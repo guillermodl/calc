@@ -19,6 +19,9 @@ function cubo(){
   var num = document.getElementById("n1");
   num.value = num.value * num.value * num.value;
 }
+  var num = document.getElementById("n1");
+  num.value = num.value /100*7;
+}
 </script>
 </head>
 <body>
@@ -29,5 +32,6 @@ function cubo(){
     <button onclick="cubo()"> x<sup>3</sup> </button>
   <button onclick="inverso()"> 1/x </button>
 
+  <button onclick="seven()"> 7% </button>
 </body>
 </html>
